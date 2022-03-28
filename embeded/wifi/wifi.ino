@@ -15,7 +15,7 @@ bool connected = false;
 void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
     switch(type) {
         case WStype_TEXT:
-            if(!strcmp((char *)payload,"right")) 
+            if(!strcmp((char *)payload,"right"))
             mode = 0;
 
             if(!strcmp((char *)payload,"left")) 
