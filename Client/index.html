@@ -15,8 +15,30 @@
 
 <body>
     <div class="container" dir="rtl">
-        <div id="rows">
-            
+        <div id="arrows" class="row">
+            <div class="col">
+                <button class="btn btn-primary arrow" onclick="arrow_clicked('left')">left</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary arrow" onclick="arrow_clicked('up')">Up</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary arrow" onclick="arrow_clicked('right')">right</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary arrow" onclick="arrow_clicked('down')">down</button>
+            </div>
+        </div>
+        <div id="modes" class="row">
+            <div class="col">
+                <button class="btn btn-success" id="mode1" onclick='mode_clicked("mode1")'>Track mode</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-success" id="mode2" onclick='mode_clicked("mode2")' disabled>Manual Mode</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-success" id="mode3" onclick='mode_clicked("mode3")'>Obstacle Mode</button>
+            </div>
         </div>
     </div>
 </body>
@@ -26,34 +48,59 @@
 </script>
 <script>
     const ws = new WebSocket("ws://localhost:3000/client");
+
+    function disable_arrows() {
+        let arrows = document.getElementsByClassName("arrow");
+        for (let i = 0; i < arrows.length; i++) {
+            const arrow = arrows[i];
+            arrow.disabled = true;
+        }
+    }
+    function enable_arrows() {
+        let arrows = document.getElementsByClassName("arrow");
+        for (let i = 0; i < arrows.length; i++) {
+            const arrow = arrows[i];
+            arrow.disabled = false;
+        }
+    }
+
+    function mode_clicked(mode) {
+        let mode1 = document.getElementById("mode1");
+        let mode2 = document.getElementById("mode2");
+        let mode3 = document.getElementById("mode3");
+        disable_arrows();
+        if (mode === "mode1") {
+            disable_arrows();
+            mode1.disabled = true;
+            mode2.disabled = false;
+            mode3.disabled = false;
+            ws.send("track");
+        } else if (mode === "mode2") {
+            enable_arrows();
+            mode2.disabled = true;
+            mode1.disabled = false;
+            mode3.disabled = false;
+            ws.send("manual");
+        } else {
+            disable_arrows();
+            mode3.disabled = true;
+            mode2.disabled = false;
+            mode1.disabled = false;
+            ws.send("obs");
+        }
+    }
+    function arrow_clicked(arrow) {
+        ws.send(arrow);
+    }
     // const ws = new WebSocket("wss://esp32-ws.herokuapp.com/client")
     ws.onopen = () => {
-        let data = true;
         console.log("[CONNECTED]");
-        ws.send(CurrentState);
-        console.log(`[SENT]: ${CurrentState}`);
     }
     ws.onclose = () => {
         console.log("[DISCONNECTED]");
     }
     ws.onmessage = (msg) => {
         console.log(`[RECIEVED]: ${msg.data}`);
-        if (CurrentState === "temperature") {
-            updateChart(tempChart, msg.data, 1);
-        } else if (CurrentState === "gas") {
-            updateChart(GasChart, msg.data, 1);
-        }
-    }
-
-    function getReads(button) {
-        if (CurrentState === "temperature") {
-            CurrentState = "gas";
-            button.textContent = "Get Temperature";
-        } else {
-            CurrentState = "temperature";
-            button.textContent = "Get Gas";
-        }
-        ws.send(CurrentState);
     }
 </script>
 
