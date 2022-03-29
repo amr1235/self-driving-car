@@ -17,7 +17,6 @@
     <div class="container" dir="rtl">
         <div id="rows">
             <video id="video" width="640" height="480" autoplay></video>
-            <button id="snap">Snap Photo</button>
             <canvas id="canvas" width="640" height="480"></canvas>
         </div>
     </div>
@@ -31,7 +30,6 @@
     var canvas = document.getElementById('canvas');
     var context = canvas.getContext('2d');
     var video = document.getElementById('video');
-
 
     const ws = new WebSocket("ws://localhost:3000/camera");
     ws.onopen = () => {
@@ -47,19 +45,12 @@
             // video.src = window.URL.createObjectURL(stream);
             video.srcObject = stream;
             video.play();
-            // ws.send(stream);
         });
     }
-    // Trigger photo take
-    // document.getElementById("snap").addEventListener("click", function () {
-        
-    //     // console.log(canvas.toDataURL("image/png"));
-        
-    // });
-    setInterval(()=>{
+    setInterval(() => {
         context.drawImage(video, 0, 0, 640, 480);
         ws.send(canvas.toDataURL("image/png"));
-    },500);
+    }, 2000);
 </script>
 
 </html>
