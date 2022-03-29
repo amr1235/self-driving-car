@@ -1,0 +1,1557 @@
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6294
+INFO:root:image constructed
+INFO:root:[[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 45  45  45 255]
+  [ 44  44  44 255]
+  [ 44  44  44 255]
+  ...
+  [ 47  48  41 255]
+  [ 47  48  41 255]
+  [ 47  48  41 255]]
+
+ [[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 47  48  41 255]
+  [ 45  46  40 255]
+  [ 45  46  40 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 47  47  42 255]
+  [ 45  46  41 255]
+  [ 44  45  40 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 52  54  42 255]
+  [ 52  54  42 255]
+  [ 52  54  42 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 40  40  40 255]
+  ...
+  [ 52  54  42 255]
+  [ 51  53  41 255]
+  [ 51  53  41 255]]
+
+ [[ 38  38  38 255]
+  [ 40  40  40 255]
+  [ 40  40  40 255]
+  ...
+  [ 52  54  42 255]
+  [ 51  53  41 255]
+  [ 51  53  41 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 40  40  40 255]
+  [ 40  40  40 255]
+  [ 40  40  40 255]
+  ...
+  [ 49  50  43 255]
+  [ 48  49  42 255]
+  [ 47  48  41 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 47  48  41 255]
+  [ 45  46  40 255]
+  [ 45  46  40 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 45  46  41 255]
+  [ 45  46  41 255]
+  [ 45  46  41 255]]
+
+ ...
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 47  47  42 255]
+  [ 47  47  42 255]
+  [ 47  47  43 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 47  48  41 255]
+  [ 45  46  41 255]
+  [ 47  47  43 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 45  46  40 255]
+  [ 45  46  41 255]
+  [ 45  46  41 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 48  48  46 255]
+  [ 48  48  46 255]
+  [ 47  47  45 255]]
+
+ [[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 47  47  45 255]
+  [ 47  47  45 255]
+  [ 47  47  45 255]]
+
+ [[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 45  46  43 255]
+  [ 47  47  45 255]
+  [ 47  47  45 255]]
+
+ ...
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 54  56  42 255]
+  [ 52  55  41 255]
+  [ 52  55  41 255]]
+
+ [[ 41  41  41 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 54  56  43 255]
+  [ 52  54  43 255]
+  [ 52  54  43 255]]
+
+ [[ 38  38  38 255]
+  [ 40  40  40 255]
+  [ 41  41  41 255]
+  ...
+  [ 54  55  44 255]
+  [ 52  54  44 255]
+  [ 52  54  44 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 44  45  42 255]
+  [ 44  45  42 255]
+  [ 44  45  42 255]
+  ...
+  [ 48  49  42 255]
+  [ 49  50  43 255]
+  [ 50  51  44 255]]
+
+ [[ 44  45  42 255]
+  [ 44  45  42 255]
+  [ 43  43  41 255]
+  ...
+  [ 48  49  42 255]
+  [ 48  49  42 255]
+  [ 47  48  41 255]]
+
+ [[ 44  45  42 255]
+  [ 44  45  42 255]
+  [ 43  43  41 255]
+  ...
+  [ 48  49  43 255]
+  [ 47  47  42 255]
+  [ 47  47  42 255]]
+
+ ...
+
+ [[ 40  40  40 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  44 255]
+  [ 51  53  44 255]
+  [ 51  53  44 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  42 255]
+  [ 51  53  42 255]
+  [ 51  53  42 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 38  38  38 255]
+  ...
+  [ 50  52  40 255]
+  [ 50  52  40 255]
+  [ 50  52  40 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 45  45  45 255]
+  [ 44  44  44 255]
+  [ 42  42  42 255]
+  ...
+  [ 48  48  46 255]
+  [ 48  48  46 255]
+  [ 48  48  46 255]]
+
+ [[ 44  44  44 255]
+  [ 43  43  43 255]
+  [ 42  42  42 255]
+  ...
+  [ 47  47  44 255]
+  [ 47  47  44 255]
+  [ 47  47  44 255]]
+
+ [[ 43  43  43 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 47  47  43 255]
+  [ 47  47  43 255]
+  [ 45  46  42 255]]
+
+ ...
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 50  52  43 255]
+  [ 50  51  43 255]
+  [ 50  51  43 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 49  50  43 255]
+  [ 49  50  43 255]
+  [ 49  50  44 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 48  49  42 255]
+  [ 47  47  42 255]
+  [ 47  47  43 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 45  45  45 255]
+  [ 45  45  45 255]
+  [ 45  45  45 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 41  41  41 255]
+  ...
+  [ 45  45  45 255]
+  [ 45  45  45 255]
+  [ 45  45  45 255]]
+
+ [[ 42  42  42 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 45  45  45 255]
+  [ 45  45  45 255]
+  [ 45  45  45 255]]
+
+ ...
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 51  53  42 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 51  53  43 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]
+
+ [[ 36  36  36 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 51  53  43 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 44  44  44 255]
+  [ 44  44  44 255]
+  [ 44  44  44 255]
+  ...
+  [ 47  48  41 255]
+  [ 48  49  42 255]
+  [ 49  50  43 255]]
+
+ [[ 44  44  44 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 47  48  41 255]
+  [ 47  48  41 255]
+  [ 48  49  42 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 45  47  39 255]
+  [ 45  47  39 255]
+  [ 47  48  41 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 37  37  37 255]
+  ...
+  [ 49  50  41 255]
+  [ 49  50  41 255]
+  [ 49  50  41 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 49  50  41 255]
+  [ 49  50  41 255]
+  [ 49  50  41 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 37  37  37 255]
+  ...
+  [ 49  50  41 255]
+  [ 49  50  41 255]
+  [ 49  50  41 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6294
+INFO:root:image constructed
+INFO:root:[[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6294
+INFO:root:image constructed
+INFO:root:[[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 42  42  42 255]
+  ...
+  [ 47  48  41 255]
+  [ 47  48  41 255]
+  [ 47  48  41 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 47  48  41 255]
+  [ 47  48  41 255]
+  [ 47  48  41 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 47  47  42 255]
+  [ 47  47  42 255]
+  [ 47  47  42 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 48  49  40 255]
+  [ 48  49  41 255]
+  [ 49  50  42 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 48  49  40 255]
+  [ 48  49  40 255]
+  [ 49  50  41 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 47  48  39 255]
+  [ 48  49  40 255]
+  [ 49  50  41 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 48  49  42 255]
+  [ 47  48  41 255]
+  [ 45  47  39 255]]
+
+ [[ 42  42  42 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 48  49  42 255]
+  [ 47  48  41 255]
+  [ 45  47  39 255]]
+
+ [[ 41  41  41 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 47  48  42 255]
+  [ 45  47  40 255]
+  [ 45  47  39 255]]
+
+ ...
+
+ [[ 41  41  41 255]
+  [ 40  40  40 255]
+  [ 40  40  40 255]
+  ...
+  [ 52  54  43 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  42 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  42 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 42  42  42 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 48  49  42 255]
+  [ 48  49  42 255]
+  [ 47  48  41 255]]
+
+ [[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 40  40  40 255]
+  ...
+  [ 49  50  43 255]
+  [ 49  50  43 255]
+  [ 48  49  42 255]]
+
+ [[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 40  40  40 255]
+  ...
+  [ 49  50  44 255]
+  [ 49  50  43 255]
+  [ 49  50  43 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  41 255]
+  [ 50  52  40 255]
+  [ 49  51  39 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  41 255]
+  [ 50  52  40 255]
+  [ 50  52  40 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 50  52  40 255]
+  [ 50  52  40 255]
+  [ 50  52  40 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  44  39 255]
+  [ 43  44  40 255]
+  [ 43  44  41 255]
+  ...
+  [ 45  47  39 255]
+  [ 45  47  39 255]
+  [ 47  48  41 255]]
+
+ [[ 43  44  39 255]
+  [ 43  44  40 255]
+  [ 43  44  41 255]
+  ...
+  [ 47  48  41 255]
+  [ 47  48  41 255]
+  [ 47  48  41 255]]
+
+ [[ 44  45  40 255]
+  [ 43  44  40 255]
+  [ 43  44  41 255]
+  ...
+  [ 47  48  41 255]
+  [ 47  48  41 255]
+  [ 47  48  41 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 52  54  43 255]
+  [ 51  53  42 255]
+  [ 51  53  42 255]]
+
+ [[ 37  37  37 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  43 255]
+  [ 50  52  41 255]
+  [ 49  51  40 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 38  38  38 255]
+  ...
+  [ 49  50  41 255]
+  [ 48  49  40 255]
+  [ 47  48  39 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6294
+INFO:root:image constructed
+INFO:root:[[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  43 255]
+  [ 42  42  42 255]
+  [ 41  41  41 255]
+  ...
+  [ 45  46  41 255]
+  [ 47  47  43 255]
+  [ 47  47  43 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 41  41  41 255]
+  ...
+  [ 45  46  41 255]
+  [ 45  46  41 255]
+  [ 45  46  41 255]]
+
+ [[ 42  42  42 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 45  46  41 255]
+  [ 45  46  41 255]
+  [ 45  46  41 255]]
+
+ ...
+
+ [[ 43  43  43 255]
+  [ 42  42  42 255]
+  [ 41  41  41 255]
+  ...
+  [ 50  51  43 255]
+  [ 49  50  42 255]
+  [ 48  49  41 255]]
+
+ [[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 42  42  42 255]
+  ...
+  [ 51  53  43 255]
+  [ 50  52  42 255]
+  [ 50  52  43 255]]
+
+ [[ 44  44  44 255]
+  [ 43  43  43 255]
+  [ 42  42  42 255]
+  ...
+  [ 51  53  42 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 40  40  40 255]
+  ...
+  [ 48  48  46 255]
+  [ 47  47  45 255]
+  [ 47  47  45 255]]
+
+ [[ 40  40  40 255]
+  [ 40  40  40 255]
+  [ 40  40  40 255]
+  ...
+  [ 47  47  45 255]
+  [ 47  47  45 255]
+  [ 47  47  45 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 47  47  45 255]
+  [ 45  46  43 255]
+  [ 45  46  43 255]]
+
+ ...
+
+ [[ 40  40  40 255]
+  [ 40  40  40 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  41 255]
+  [ 51  53  41 255]
+  [ 51  53  41 255]]
+
+ [[ 40  40  40 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  41 255]
+  [ 51  53  41 255]
+  [ 51  53  41 255]]
+
+ [[ 40  40  40 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  41 255]
+  [ 51  53  41 255]
+  [ 51  53  41 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 45  46  43 255]
+  [ 45  46  43 255]
+  [ 47  47  45 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 45  46  43 255]
+  [ 45  46  43 255]
+  [ 47  47  45 255]]
+
+ [[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 45  46  43 255]
+  [ 45  46  43 255]
+  [ 45  46  43 255]]
+
+ ...
+
+ [[ 40  40  40 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 51  53  43 255]
+  [ 52  54  44 255]
+  [ 52  54  44 255]]
+
+ [[ 38  38  38 255]
+  [ 40  40  40 255]
+  [ 41  41  41 255]
+  ...
+  [ 51  53  43 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 40  40  40 255]
+  ...
+  [ 50  52  42 255]
+  [ 50  52  42 255]
+  [ 51  53  43 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  41 255]
+  [ 43  43  41 255]
+  [ 43  43  41 255]
+  ...
+  [ 49  49  47 255]
+  [ 49  49  48 255]
+  [ 49  49  49 255]]
+
+ [[ 42  42  40 255]
+  [ 42  42  40 255]
+  [ 42  42  40 255]
+  ...
+  [ 48  48  46 255]
+  [ 48  48  47 255]
+  [ 49  49  49 255]]
+
+ [[ 43  43  41 255]
+  [ 42  42  40 255]
+  [ 42  42  40 255]
+  ...
+  [ 48  48  46 255]
+  [ 49  49  48 255]
+  [ 49  49  49 255]]
+
+ ...
+
+ [[ 40  40  40 255]
+  [ 40  40  40 255]
+  [ 40  40  40 255]
+  ...
+  [ 57  57  45 255]
+  [ 59  58  47 255]
+  [ 59  58  47 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 57  57  45 255]
+  [ 59  58  47 255]
+  [ 60  59  48 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 38  38  38 255]
+  ...
+  [ 56  56  45 255]
+  [ 59  58  47 255]
+  [ 61  61  49 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 50  50  50 255]
+  [ 49  49  49 255]
+  [ 48  48  48 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 49  49  49 255]
+  [ 48  48  48 255]
+  [ 47  47  47 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 48  48  47 255]
+  [ 47  47  46 255]
+  [ 47  47  47 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 52  54  42 255]
+  [ 52  54  42 255]
+  [ 52  54  42 255]]
+
+ [[ 38  38  38 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 54  56  43 255]
+  [ 52  54  42 255]
+  [ 52  54  42 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 37  37  37 255]
+  ...
+  [ 54  56  43 255]
+  [ 52  54  42 255]
+  [ 52  54  42 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 44  44  44 255]
+  [ 42  42  42 255]
+  [ 40  40  40 255]
+  ...
+  [ 47  47  45 255]
+  [ 47  47  46 255]
+  [ 47  47  47 255]]
+
+ [[ 43  43  43 255]
+  [ 42  42  42 255]
+  [ 40  40  40 255]
+  ...
+  [ 47  47  44 255]
+  [ 47  47  45 255]
+  [ 47  47  46 255]]
+
+ [[ 43  43  43 255]
+  [ 42  42  42 255]
+  [ 41  41  41 255]
+  ...
+  [ 45  46  42 255]
+  [ 47  47  43 255]
+  [ 47  47  44 255]]
+
+ ...
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 38  38  38 255]
+  ...
+  [ 52  54  45 255]
+  [ 51  53  44 255]
+  [ 50  51  44 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 52  54  44 255]
+  [ 51  53  44 255]
+  [ 50  52  43 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 51  53  43 255]
+  [ 51  53  43 255]
+  [ 50  52  42 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 45  45  45 255]
+  [ 44  44  44 255]
+  [ 42  42  42 255]
+  ...
+  [ 50  51  44 255]
+  [ 51  53  44 255]
+  [ 52  54  44 255]]
+
+ [[ 45  45  45 255]
+  [ 43  43  43 255]
+  [ 42  42  42 255]
+  ...
+  [ 49  50  43 255]
+  [ 50  51  43 255]
+  [ 51  53  44 255]]
+
+ [[ 44  44  44 255]
+  [ 42  42  42 255]
+  [ 41  41  41 255]
+  ...
+  [ 47  48  42 255]
+  [ 48  49  42 255]
+  [ 49  50  42 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 50  52  42 255]
+  [ 50  52  42 255]
+  [ 51  53  43 255]]
+
+ [[ 38  38  38 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 51  53  42 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 37  37  37 255]
+  ...
+  [ 52  54  43 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 42  42  42 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 47  47  43 255]
+  [ 47  47  43 255]
+  [ 45  46  41 255]]
+
+ [[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 47  47  43 255]
+  [ 47  47  43 255]
+  [ 45  46  41 255]]
+
+ [[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 42  42  42 255]
+  ...
+  [ 47  47  43 255]
+  [ 45  46  41 255]
+  [ 45  46  41 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 54  56  43 255]
+  [ 54  56  41 255]
+  [ 54  56  40 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 52  54  43 255]
+  [ 52  55  41 255]
+  [ 52  55  40 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 51  53  42 255]
+  [ 51  53  40 255]
+  [ 51  54  39 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 42  42  42 255]
+  ...
+  [ 48  49  42 255]
+  [ 48  49  42 255]
+  [ 48  49  42 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 41  41  41 255]
+  ...
+  [ 47  48  41 255]
+  [ 48  49  42 255]
+  [ 48  49  42 255]]
+
+ [[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 47  48  41 255]
+  [ 48  49  42 255]
+  [ 48  49  42 255]]
+
+ ...
+
+ [[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 54  55  44 255]
+  [ 54  55  45 255]
+  [ 54  55  45 255]]
+
+ [[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 54  55  44 255]
+  [ 54  55  44 255]
+  [ 54  55  44 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 41  41  41 255]
+  ...
+  [ 52  54  42 255]
+  [ 54  56  43 255]
+  [ 54  56  43 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  43 255]
+  [ 43  43  43 255]
+  [ 43  43  43 255]
+  ...
+  [ 49  50  41 255]
+  [ 49  50  41 255]
+  [ 49  50  41 255]]
+
+ [[ 42  42  42 255]
+  [ 42  42  42 255]
+  [ 42  42  42 255]
+  ...
+  [ 49  50  42 255]
+  [ 48  49  41 255]
+  [ 48  49  41 255]]
+
+ [[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 48  49  43 255]
+  [ 48  49  43 255]
+  [ 47  48  42 255]]
+
+ ...
+
+ [[ 40  40  40 255]
+  [ 40  40  40 255]
+  [ 38  38  38 255]
+  ...
+  [ 55  57  44 255]
+  [ 54  56  43 255]
+  [ 54  55  44 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 54  56  43 255]
+  [ 54  55  44 255]
+  [ 55  56  46 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 37  37  37 255]
+  ...
+  [ 54  55  44 255]
+  [ 54  55  45 255]
+  [ 55  56  47 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 44  45  40 255]
+  [ 44  45  40 255]
+  [ 44  45  40 255]
+  ...
+  [ 48  47  50 255]
+  [ 48  47  51 255]
+  [ 48  47  52 255]]
+
+ [[ 44  45  40 255]
+  [ 43  44  39 255]
+  [ 43  44  39 255]
+  ...
+  [ 48  47  50 255]
+  [ 48  47  50 255]
+  [ 48  47  51 255]]
+
+ [[ 43  44  39 255]
+  [ 43  44  39 255]
+  [ 43  44  39 255]
+  ...
+  [ 48  48  48 255]
+  [ 48  48  49 255]
+  [ 49  49  50 255]]
+
+ ...
+
+ [[ 41  41  41 255]
+  [ 40  40  40 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  42 255]
+  [ 52  54  42 255]
+  [ 54  56  42 255]]
+
+ [[ 41  41  41 255]
+  [ 40  40  40 255]
+  [ 38  38  38 255]
+  ...
+  [ 52  54  44 255]
+  [ 52  54  44 255]
+  [ 52  54  43 255]]
+
+ [[ 42  42  42 255]
+  [ 41  41  41 255]
+  [ 38  38  38 255]
+  ...
+  [ 52  54  44 255]
+  [ 52  54  44 255]
+  [ 52  54  44 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 37  37  37 255]
+  [ 38  38  38 255]
+  [ 40  40  40 255]
+  ...
+  [ 45  45  45 255]
+  [ 44  44  44 255]
+  [ 43  43  43 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 40  40  40 255]
+  ...
+  [ 45  45  45 255]
+  [ 44  44  44 255]
+  [ 43  43  43 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 44  44  44 255]
+  [ 44  44  44 255]
+  [ 43  43  43 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 51  53  43 255]
+  [ 50  52  42 255]
+  [ 50  52  42 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 37  37  37 255]
+  ...
+  [ 51  53  43 255]
+  [ 51  53  43 255]
+  [ 51  53  43 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 52  54  44 255]
+  [ 52  54  44 255]
+  [ 52  54  44 255]]]
+INFO:root:convert 64 string tp image image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:image constructed
+INFO:root:[[[ 43  43  43 255]
+  [ 41  41  41 255]
+  [ 40  40  40 255]
+  ...
+  [ 47  45  45 255]
+  [ 47  45  45 255]
+  [ 46  43  44 255]]
+
+ [[ 42  42  42 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 47  45  45 255]
+  [ 47  45  45 255]
+  [ 46  44  44 255]]
+
+ [[ 41  41  41 255]
+  [ 41  41  41 255]
+  [ 41  41  41 255]
+  ...
+  [ 46  45  44 255]
+  [ 47  45  44 255]
+  [ 46  44  43 255]]
+
+ ...
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 50  52  42 255]
+  [ 51  53  43 255]
+  [ 52  54  44 255]]
+
+ [[ 38  38  38 255]
+  [ 38  38  38 255]
+  [ 38  38  38 255]
+  ...
+  [ 50  52  42 255]
+  [ 51  53  42 255]
+  [ 52  54  43 255]]
+
+ [[ 37  37  37 255]
+  [ 37  37  37 255]
+  [ 37  37  37 255]
+  ...
+  [ 50  52  41 255]
+  [ 51  53  42 255]
+  [ 52  54  42 255]]]

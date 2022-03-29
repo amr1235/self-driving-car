@@ -1,12 +1,10 @@
 const { EventEmitter } = require("events");
 const { Server } = require("ws");
-const fs = require('fs');
-// const https = require('https');
-const http = require('http');
-// const spawn = require('child_process').spawn;
-// const ls = spawn('python', ['process.py']);
+const spawn = require('child_process').spawn;
+const ls = spawn('python', ['car_cv.py']);
 const express = require("express");
 const cors = require("cors");
+const { dir } = require("console");
 
 let server = express();
 
@@ -19,27 +17,18 @@ const bus = new EventEmitter();
 
 const subscribers = [];
 let publisher = null;
-// hundle ip camera
-// http.get('http://192.168.1.3:8080/photo.jpg', (resp) => {
-//     let data = [];
-//     // A chunk of data has been received.
-//     resp.on('data', (chunk) => {
-//         data.push(chunk)
-//     });
-//     // The whole response has been received. Print out the result.
-//     resp.on('end', () => {
-//         fs.writeFileSync("image.jpg", Buffer.concat(data));
-//         console.log("[IMAGE]");
-//     });
-// }).on("error", (err) => {
-//     console.log("Error: " + err.message);
-// });
 
-// ls.stdout.on('data', (predictedValue) => {
-//     subscribers.forEach((sub) => {
-//         sub.send(JSON.stringify(currentData), { binary: false });
-//     });
-// });
+ls.stdout.on('data', (dir) => {
+    let newDir = "";
+    if (dir === "F") {
+        newDir = "0";
+    } else if (dir === "L") {
+        newDir = "-45";
+    } else {
+        newDir = "45";
+    }
+    publisher.send(newDir, { binary: false });
+});
 
 bus.on("update", (data) => {
     if (data.toString()) {
@@ -57,7 +46,7 @@ bus.on("command", (cmd) => {
 });
 bus.on("frame", (frame) => {
     var base64Data = frame.toString().replace(/^data:image\/png;base64,/, "");
-    // require("fs").writeFile("out.png", base64Data, 'base64');
+    ls.stdin.write(base64Data + "\n", () => { });
 });
 ws.on("connection", (socket, req) => {
     switch (req.url) {
@@ -83,12 +72,9 @@ ws.on("connection", (socket, req) => {
     }
 });
 
-
-
-
-// ls.stderr.on('data', (data) => {
-//     console.error(`stderr: ${data}`);
-// });
-// ls.on('close', (code) => {
-//     console.log("child process exited with code ${code}");
-// });
+ls.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+});
+ls.on('close', (code) => {
+    console.log("child process exited with code ${code}");
+});
