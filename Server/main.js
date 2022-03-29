@@ -5,6 +5,7 @@ const ls = spawn('python', ['car_cv.py']);
 const express = require("express");
 const cors = require("cors");
 const { dir } = require("console");
+const { PassThrough } = require("stream");
 
 let server = express();
 
@@ -17,6 +18,7 @@ const bus = new EventEmitter();
 
 const subscribers = [];
 let publisher = null;
+let mode = "manual";
 
 ls.stdout.on('data', (dir) => {
     let newDir = "";
@@ -31,22 +33,33 @@ ls.stdout.on('data', (dir) => {
 });
 
 bus.on("update", (data) => {
-    if (data.toString()) {
-        // let records = JSON.parse(data.toString());
-        // console.log("heartRate : " + records["heartrate"] + " | " + "strengths : " + records["Strengths"]);
-        // ls.stdin.write(records["Strengths"].toString() + "\n", () => { });
-        // currentData.HeartRate = records["heartrate"];
-    }
+    // if (data.toString()) {
+    // }
 });
 
 bus.on("command", (cmd) => {
-    if (publisher) {
-        publisher.send(cmd, { binary: false });
+    const md = cmd.toString();
+    if(md === "manual") {
+        mode = "manual";
+    }else if (md === "track") {
+        mode = "track";
+    }else if (md === "obs") {
+        mode = "obs";
+        if (publisher) {
+            publisher.send("obs");
+        }
+    }else {
+        if (publisher) {
+            publisher.send(cmd, { binary: false });
+        }
     }
+    console.log(mode);
 });
 bus.on("frame", (frame) => {
-    var base64Data = frame.toString().replace(/^data:image\/png;base64,/, "");
-    ls.stdin.write(base64Data + "\n", () => { });
+    if(mode === "track") {
+        let base64Data = frame.toString().replace(/^data:image\/png;base64,/, "");
+        ls.stdin.write(base64Data + "\n", () => { });
+    }
 });
 ws.on("connection", (socket, req) => {
     switch (req.url) {
