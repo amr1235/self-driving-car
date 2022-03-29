@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    </style>
+    <title>Car</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="container" dir="rtl">
+        <div id="rows">
+            <video id="video" width="640" height="480" autoplay></video>
+            <canvas id="canvas" width="640" height="480"></canvas>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+<script>
+    swInit();
+</script>
+<script>
+    // // Elements for taking the snapshot
+    var canvas = document.getElementById('canvas');
+    var context = canvas.getContext('2d');
+    var video = document.getElementById('video');
+
+    const ws = new WebSocket("ws://localhost:3000/camera");
+    ws.onopen = () => {
+        console.log("[CONNECTED]");
+    }
+    ws.onclose = () => {
+        console.log("[DISCONNECTED]");
+    }
+    // Get access to the camera!
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        // Not adding `{ audio: true }` since we only want video now
+        navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+            // video.src = window.URL.createObjectURL(stream);
+            video.srcObject = stream;
+            video.play();
+        });
+    }
+    setInterval(() => {
+        context.drawImage(video, 0, 0, 640, 480);
+        ws.send(canvas.toDataURL("image/png"));
+    }, 2000);
+</script>
+
+</html>
