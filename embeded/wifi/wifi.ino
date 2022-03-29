@@ -8,24 +8,24 @@
 #include <WebSocketsClient.h>
 SoftwareSerial NodeMCU(D2,D3);
 WebSocketsClient webSocket;
-int mode = -1; //obstacle avoider
+// int mode = -1; //obstacle avoider
 
 unsigned long messageInterval = 1000;
 bool connected = false;
 void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
     switch(type) {
         case WStype_TEXT:
-            if(!strcmp((char *)payload,"right")) 
-            mode = 0;
-
-            if(!strcmp((char *)payload,"left")) 
+            if(!strcmp((char *)payload,"45")) 
             mode = 1;
 
-            if(!strcmp((char *)payload,"forward")) 
+            if(!strcmp((char *)payload,"-45")) 
             mode = 2;
+
+            if(!strcmp((char *)payload,"0")) 
+            mode = 0;
                         
-            if(!strcmp((char *)payload,"backward")) 
-            mode = 3;
+            if(!strcmp((char *)payload,"avoider")) 
+            mode = -1;
             break; 
         case WStype_BIN:
             hexdump(payload, length);

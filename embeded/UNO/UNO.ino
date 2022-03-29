@@ -88,6 +88,18 @@ if (val == -1){
     move_forward();
   }
 }
+if (val == 0){
+  move_forward();
+
+}
+if (val == 1){
+  turn_right_45();
+
+}
+if (val == 2){
+  turn_left_45();
+
+}
 delay(30);
 }
 
@@ -173,4 +185,31 @@ void turn_left() {
   digitalWrite(motor1_2, LOW);
   digitalWrite(motor2_1, HIGH);
   digitalWrite(motor2_2, LOW);
+}
+
+void turn_right_45(){
+  turn_right();
+  // appropriate delay determind by calibration -- to steer the car 45
+  move_forward();
+  // appropriate delay determind by calibration -- to move a little forward in the corner
+  turn_right();
+  // delay
+  move_forward();
+  // delay
+  move_stop();
+  // appropriate delay -- wait for esp signal to confirm that you should move forward
+  val = 0; 
+}
+void turn_left_45(){
+  turn_left();
+  // appropriate delay determind by calibration
+  move_forward();
+  // appropriate delay determind by calibration -- to move a little forward in the corner
+  turn_left();
+  // delay
+  move_forward();
+  // delay
+  move_stop();
+  // appropriate delay -- wait for esp signal to confirm that you should move forward
+  val = 0;
 }
