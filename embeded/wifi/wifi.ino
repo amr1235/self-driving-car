@@ -8,7 +8,7 @@
 #include <WebSocketsClient.h>
 SoftwareSerial NodeMCU(D2,D3);
 WebSocketsClient webSocket;
-// int mode = -1; //obstacle avoider
+int mode = -1; //obstacle avoider
 
 unsigned long messageInterval = 1000;
 bool connected = false;
@@ -26,6 +26,19 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
                         
             if(!strcmp((char *)payload,"avoider")) 
             mode = -1;
+
+            if(!strcmp((char *)payload,"left")) 
+            mode = 5;
+
+            if(!strcmp((char *)payload,"right")) 
+            mode = 3;
+
+            if(!strcmp((char *)payload,"forward")) 
+            mode = 4;
+
+            if(!strcmp((char *)payload,"backward")) 
+            mode = 6;
+            
             break; 
         case WStype_BIN:
             hexdump(payload, length);
@@ -44,13 +57,13 @@ char* serial_tochar(int choose_data) {
 }
 
 void connect_wifi() {
-    char * username;
-    Serial.println("Please enter the username: ");
-    username = strtok(serial_tochar(0), " ");
-    char * password;
-    Serial.println("Please enter the password: ");
-    password = strtok(serial_tochar(1), " ");
-    WiFi.begin(username, password);
+//    char * username;
+//    Serial.println("Please enter the username: ");
+//    username = strtok(serial_tochar(0), " ");
+//    char * password;
+////    Serial.println("Please enter the password: ");
+//    password = strtok(serial_tochar(1), " ");
+    WiFi.begin("Ammar", "ammar7320");
 
     uint8_t i = 0;
     while(WiFi.status() != WL_CONNECTED && i < 20) {

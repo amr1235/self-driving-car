@@ -77,10 +77,12 @@ if (val == -1){
     if (right_distance >= left_distance)
     {
       turn_right();
+      delay(1000);
       move_stop();
     } else
     {
       turn_left();
+      delay(1000);
       move_stop();
     }
   } else
@@ -90,6 +92,7 @@ if (val == -1){
 }
 if (val == 0){
   move_forward();
+  // delay -- wait for esp to give you directions
 
 }
 if (val == 1){
@@ -100,6 +103,32 @@ if (val == 2){
   turn_left_45();
 
 }
+if (val == 3){
+  turn_right();
+  delay(100); // refractive period
+  move_stop();
+  val = 7;
+}
+if (val == 4){
+  move_forward();
+  delay(100); // refractive period
+  move_stop();
+  val = 7;
+
+}
+if (val == 5){
+  turn_left();
+  delay(100); // refractive period
+  move_stop();
+  val = 7;
+}
+if (val == 6){
+  move_backward();
+  delay(100); // refractive period
+  move_stop();
+  val = 7;
+}
+
 delay(30);
 }
 
@@ -142,6 +171,7 @@ void move_stop() {
   digitalWrite(motor1_2, LOW);
   digitalWrite(motor2_1, LOW);
   digitalWrite(motor2_2, LOW);
+  moving_forward = false;
 }
 
 void move_forward() {
@@ -168,11 +198,12 @@ void turn_right() {
   digitalWrite(motor1_2, HIGH);
   digitalWrite(motor2_1, HIGH);
   digitalWrite(motor2_2, LOW);
-  delay(1000);
-  digitalWrite(motor1_1, HIGH);
-  digitalWrite(motor1_2, LOW);
-  digitalWrite(motor2_1, HIGH);
-  digitalWrite(motor2_2, LOW);
+  moving_forward = false;
+  // delay(1000);
+  // digitalWrite(motor1_1, HIGH);
+  // digitalWrite(motor1_2, LOW);
+  // digitalWrite(motor2_1, HIGH);
+  // digitalWrite(motor2_2, LOW);
 }
 
 void turn_left() {
@@ -180,11 +211,12 @@ void turn_left() {
   digitalWrite(motor1_2, LOW);
   digitalWrite(motor2_1, LOW);
   digitalWrite(motor2_2, HIGH);
-  delay(1000);
-  digitalWrite(motor1_1, HIGH);
-  digitalWrite(motor1_2, LOW);
-  digitalWrite(motor2_1, HIGH);
-  digitalWrite(motor2_2, LOW);
+  moving_forward = false;
+  // delay(1000);
+  // digitalWrite(motor1_1, HIGH);
+  // digitalWrite(motor1_2, LOW);
+  // digitalWrite(motor2_1, HIGH);
+  // digitalWrite(motor2_2, LOW);
 }
 
 void turn_right_45(){
